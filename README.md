@@ -1,4 +1,4 @@
-# RHBL: Reality–Human Boundary Layer 🛡️👤
+# RHBL: Reality–Human Boundary Layer 
 
 > **Defending Authenticity in the Age of Synthetic Media.**
 > *Where Biological Truth Meets Digital Security.*
@@ -7,7 +7,7 @@
 ![React](https://img.shields.io/badge/React-18-cyan)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)
 
-## 📖 Overview
+## Overview
 
 **RHBL (Reality–Human Boundary Layer)** is a multi-modal security ecosystem designed to verify human authenticity and detect deepfakes in real-time. Unlike traditional FaceID or passive liveness detection, RHBL employs a **neuro-symbolic** approach, combining biological signal extraction (rPPG), cognitive stress testing, and physics-based validation to ensure the subject is not just present, but biologically alive.
 
@@ -15,29 +15,29 @@ This system is architected for **Edge Computing**, ensuring privacy by processin
 
 ---
 
-## 🏗️ The 4-Layer Architecture
+##  The 4-Layer Architecture
 
 RHBL forces attackers to bypass four distinct technologies simultaneously:
 
-### 🧠 Layer 1: Human Bio-Authenticity (The Biological Check)
+### Layer 1: Human Bio-Authenticity (The Biological Check)
 * **Technology:** Remote Photoplethysmography (rPPG) & 3D Depth Tesselation.
 * **Function:** Extracts invisible color variations in the skin caused by blood flow to verify a live heartbeat. Checks facial depth to prevent screen/mask attacks.
 
-### 🗣️ Layer 2: AI Manipulation Detection (The Intent Check)
+### Layer 2: AI Manipulation Detection (The Intent Check)
 * **Technology:** NLP Transformers & Active Verbal Challenge.
 * **Function:** Detects psychological manipulation tactics (false urgency) and injects randomized verbal challenges to test the cognitive latency of the subject (breaking generative AI scripts).
 
-### ⚛️ Layer 3: Reality Consistency (The Physics Check)
+### Layer 3: Reality Consistency (The Physics Check)
 * **Technology:** Temporal Consistency Models.
 * **Function:** Validates that motion obeys the laws of physics (inertia, gravity) and that micro-expressions align with biological plausibility.
 
-### ⚖️ Layer 4: Trust Fusion (The Decision Engine)
+### Layer 4: Trust Fusion (The Decision Engine)
 * **Technology:** Bayesian Networks & Immutable Ledger.
 * **Function:** Fuses signals from all layers to output a **Confidence Interval** (e.g., 98.2%) rather than a binary pass/fail. Validated media is cryptographically signed.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend (The Sentinel Engine)
 * **Framework:** FastAPI (Python)
@@ -52,7 +52,7 @@ RHBL forces attackers to bypass four distinct technologies simultaneously:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Python 3.9+
@@ -65,7 +65,7 @@ git clone https://github.com/madhurithika22/RHBL-Reality_Human_Boundary_Layer.gi
 cd RHBL-Reality_Human_Boundary_Layer
 ```
 
-### 🏃‍♂️ Running the Application
+### Running the Application
 To run the full system, you will need two separate terminal windows.
 Terminal 1: Start the Backend Server
 Navigate to the backend directory and start the FastAPI server on port 7000.
@@ -97,7 +97,7 @@ npm install
 npm run dev
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 The project is organized into two main directories: `rhbl-` (Backend) and `frontend` (Dashboard).
 
